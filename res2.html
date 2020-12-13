@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is awesone website">
+        <!-- the below tag is use to make website on all website an screen resolution -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Course Resgister.</title>
+        <link rel="stylesheet" type="text/css" href="style ofres.css">
+    </head>
+    <body>
+        <header><a href="###" <h3><center>Learnforfree.in</center></h3></a></header>
+        <h2 style="background:none";>Register here @ Learnforfree.in</h2><hr/>
+            <form action="form.php" target="_blank">
+                <label for="fname" >First name: </label>
+                <input type="text" placeholder="Enter your first name." name="fname" required>
+                <label for="lname" style="padding-left:15px;">Last name: </label>
+                <input type="text"  placeholder="Enter your last name." name="lname" required><br/><br/>
+                <label for="Mname" style="padding-right:10px;">Middle name:</label>
+                <input type="text"placeholder="Enter your middle name." name="Mname" required>
+                    <!--<label for="Nname">Pet name:</label>
+                    <input type="Nname" size=18px; placeholder="Enter your nick name." name="Nname"><br/><br/>*/-->
+                <label for="DOB" style="padding-left: 20px; padding-right: 25px;" >DOB:</label>
+                <input type="date" style="padding-right: 15px;" name="DOB" required="Note:You must be 13 years or 13+ years older." required><br/><br/>
+                <label for="type" >Mobile no:</label>
+                <input type="number"  name="number" placeholder="Enter your mobile number." required>
+                <label for="education" style="padding-right: 3px;" >Qualification:</label>
+                <select id="re" required>
+                        <option value="Course">Select your Course</option>
+                        <option value="B.Tech/M.Tech">B.tech/M.tech</option>
+                        <option value="BCA/MCA">BCA/MCA</option>
+                        <option value="B.E/M.E">B.E/M.E</option>
+                        <option value="10TH">10<sub>Th</sub></option>
+                        <option value="12TH">12<sup>Th</sup></option>
+                        <option value="8TH">8<sup>Th</sup></option>
+                        <option value="Other">Other</option>
+                </select><br/><br/>
+                <label for="Gender" >Gender:</label>
+                <input id="res" type="radio" name="Gender" aria-checked="mixed" >Male        
+                <input id="re1" type="radio" name="Gender" aria-checked="mixed" >Female
+                <input id="res2" type="radio" name="Gender" aria-checked="mixed" >Other 
+                <br/><br/>
+                <label for="institution" optional >Institution:</label>
+                <input type="text"  name="College/School" placeholder="Enter your college name.">
+                <label for="Std">Year/Class:</label>
+                <input type="text" name="Year/Class:" placeholder="Enter your current std."><br/><br/>
+                <label for="Gmail" >Emailid:</label>
+                <input type="email" name="Emailid" style="padding-left: 25px;" placeholder="Enter your emailid.">
+                <label for="Username" style="padding-left: 28px;" >Username:</label>
+                <input type="text" name="Username" placeholder="Enter your username."><br/><br/>
+                <label for="pass" miinlength="8" >Password:</label>
+                <input type="password" name="password" placeholder="Enter your password" required>
+                <label for="password" minlength="8" style="padding-left: 10px;">Password:</label>
+                <input type="password" name="Password" placeholder="Re-type your password." required matched ><br/><br/>
+                <label for="Address">Address:</label><br/>
+                <textarea value="Address" placeholder="Enter your Address"></textarea><br/><br/>
+                <!--Button--><hr/>
+                <label for="button"></label>
+                <input id="button"  type="submit" name="Subimt" value="Submit" onclick="signup()">
+                <input id="button1"  type="reset" name="Reset" value="Reset" onclick="set()">
+                Did you register earlier?<a style="font-size: 20px;" href="login.html" target="_blank">Login here!!</a>
+            </center>
+        </form>
+    </body>
+    <script src="loginjs.js"></script>
+</html>

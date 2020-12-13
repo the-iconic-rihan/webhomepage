@@ -1,0 +1,251 @@
+*{background-image: url("cgi-brochure-background-banner.jpg");
+background-blend-mode: screen;
+background-color: springgreen;}
+img{block-size: 50px;
+padding-right: 10px;
+width: 50px;
+height: 50px;}
+#stat{width:100%;
+height: fit-content;
+padding-left: 10px;
+padding-right: 10px;
+background: none;}
+#logo{
+margin-top: 8px;
+padding-bottom: 5px;
+display: inline-flexbox;
+position: relative;
+float: left;
+}
+input{
+    position: relative;
+    float:right;
+    display: inline;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-right: 8px;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 17px;
+    width: 150px;
+  }
+#btn1{
+    padding-left: 2px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    background:linear-gradient(15deg,#ff5100,rgba(92, 182, 92, 0.678),cyan);
+    display: inline-bloack;
+    text-align:center;
+    border-style: hidden;
+
+}
+#btn1:hover{
+color: red;
+border:1px black;
+cursor: pointer;
+border-radius: 5px;}
+#btn1:active{color:orange;
+    border-color: darkorange;
+    border-radius:5px;
+cursor: pointer;}
+#btn1:visited{cursor: pointer;
+    color: blue;}
+#btn1{margin-top: 12px;
+margin-bottom: 10px;
+width: 75px;
+margin-left: 8px;
+margin-right: 5px;
+padding-left: 8px;
+padding-right: 10px;
+transition: all 2.0s;
+}
+@media all and (max-width:30em){
+    #btn1{display:block;
+      margin:0.4em auto;}
+    }
+#Search{
+    position: relative;
+    display: inline;
+    float: right;
+    width:70px;
+height:20px ;
+padding-top: 1px;
+    padding-left: 2px;
+    padding-bottom: 0px;
+    padding-right: 5px;
+    border-style: hidden;
+    margin-top:8px;
+    margin-right: 5px;
+}
+#Search:hover{cursor: pointer;
+color: #ff5100;}
+#Search:active{cursor:pointer;
+color: yellow;}  
+#Search:visited{cursor: pointer;
+color: chartreuse;} 
+
+#head{
+font-family: cursive;
+color:rgba(152, 37, 175, 0.459);
+font-size: 35px;
+text-decoration:none;}
+
+.navbar{
+    padding-left: 25px;
+    text-decoration: none;
+    padding-top: 8px;
+    background: linear-gradient(35deg,rgb(241, 171, 41),rgb(201, 235, 148),rgba(236, 187, 187, 0.199));
+    padding-bottom:5px;
+    border-radius: 10px;
+    font: menu;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: groove;
+    font-size: 15px;}
+#H1{margin-bottom: 5px;}
+#H1:hover{border-style: groove;
+    border-color: rgba(42, 43, 42, 0.877);
+color:rgb(36, 19, 19);}
+#H1:active{color: seagreen;}
+#H1:visited{color:brown;}
+#H1{padding:0px 30px 0px 30px; 
+    border-radius:-15px;
+    background: linear-gradient(35deg,rgb(201, 235, 148),rgba(236, 187, 187, 0.199)) ;}
+#h4{padding-top: 5px;
+    padding-left: 18px;
+background: none;
+margin: 5px;}
+#mysql{float: right;
+    margin: 0px;
+    left:53%;
+    top: 1260px;
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    background: none;
+    font-style: bold;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    text-decoration: underline;
+    color: rgb(62, 20, 248);}
+#cisco{float:top right;
+    margin: 0px;
+    left:53%;
+    top: 167px;
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    background: none;
+    font-style: bold;
+    padding-top: 0px;
+    padding-left: 15px;
+    text-decoration: underline;
+    color: rgb(62, 20, 248);}
+#java{float:top left;
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: medium;
+background: none;
+font-style: bold;
+padding-top: 2px;
+padding-left: 15px;
+text-decoration: underline;
+color: rgb(62, 20, 248);}
+.list0{
+    background: none;
+    background-repeat: none;   
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 0px;
+    opacity:0.7;
+    background-color:none;
+}
+.list1{position:top bottom;
+    background: none;
+    background-repeat: none;   
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 450px;
+    opacity:0.7;
+    background-color:none;
+}
+#stat1{float:top left;
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: medium;
+background: none;
+font-style: bold;
+padding-top: 2px;
+padding-left: 15px;
+text-decoration: underline;
+color: rgb(62, 20, 248);}
+#first{background: none;
+    border-style: groove;
+    background-position: top left;
+    background-image: url("freecourse.jpg"); 
+    position: absolute;
+    width:45%;
+    height: 420px;
+    line-height: 0.8cm;
+    font-weight: 700;
+    font-size: 14;
+    background-repeat: none;   
+    padding-left: 25px;
+    padding-right: -25px;
+    opacity:1;}
+#second{color: black;
+    background-position: top right;
+    background: none;
+    background-image: url("cisco.jpg");
+    line-height: 0.8cm;
+    font-weight: 700;
+    font-size: 14;
+    border-style: groove;
+    width: 45%;
+    position: absolute;
+    right: 0px;
+    height: 420px;
+    background-repeat: none;   
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    opacity:1;
+    background-color:none;}
+#third{background: none;
+    border-style: groove;
+    background-position: top left;
+    background-image: url("sat.png"); 
+    position: absolute;
+    width:45%;
+    height: 420px;
+    line-height: 0.8cm;
+    font-weight: 700;
+    font-size: 14;
+    background-repeat: none;   
+    padding-left: 25px;
+    padding-right: -25px;
+    opacity:0.8;}
+#fourth{color: black;
+    background-position: top right;
+    background: none;
+    background-image: url("bigdata4.jpg");
+    line-height: 0.8cm;
+    font-weight: 700;
+    font-size: 14;
+    border-style: groove;
+    width: 45%;
+    position: absolute;
+    right: 0px;
+    height: 420px;
+    background-repeat: none;   
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    opacity:1;
+    background-color:none;}
+
+      
+ 

@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+html{
+    background-image: url("cgi-brochure-background-banner.jpg");
+/* background-image: url('cre.jpg'); */
+background-blend-mode: screen;
+background-size: cover;
+background-color: springgreen;
+}
+.navbar{
+scrollbar-3dlight-color: red;
+padding-left: 25px;
+text-decoration: none;
+padding-top: 8px;
+background: linear-gradient(35deg,rgb(241, 171, 41),rgb(201, 235, 148),rgba(236, 187, 187, 0.199));
+padding-bottom:5px;
+border-radius: 10px;
+font: menu;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border-style: groove;
+font-size: 15px;}
+#H1{margin-bottom: 5px;}
+#H1:hover{border-style: groove;
+border-color: rgba(42, 43, 42, 0.877);
+color:rgb(36, 19, 19);}
+#H1:active{color: seagreen;}
+#H1:visited{color:brown;}
+#H1{padding:0px 30px 0px 30px; 
+border-radius:-15px;
+background: linear-gradient(35deg,rgb(201, 235, 148),rgba(236, 187, 187, 0.199)) ;}
+#header{
+    font-style: italic;
+    font-size: x-larger;
+    font-weight: 900;
+    font-family: Helvetica,Courier, monospace,"Sacramento";
+    background: linear-gradient(to left,rgb(238, 103, 103),rgb(77, 235, 77),rgb(231, 231, 58));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgba(132, 226, 44, 0.836);
+    text-shadow: 2px 0,0 -2px black ,-1px 0 black, 0 1px black;
+    
+}
+#logo{
+        image-resolution: 10px;
+        size: -10px;
+        width: 100px;
+        margin-top: 8px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        display: inline-flexbox;
+        position: relative;
+        float: left;
+        }
+.login{
+    /* background: none; */
+    background-image: url("download (2).jpg");
+    opacity: 0.9;
+    background-size: 700px;
+    margin: 100px;
+    padding: 50px 25px 50px 25px;
+    width: 450px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    border: 2px groove red ;
+    border-radius: 5px;
+    /* background: -webkit-linear-gradient(100deg,rgb(238, 5, 149),rgb(16, 30, 228)); */
+    /* -webkit-background-clip: text; */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* -webkit-text-fill-color: transparent; */
+    border-top: 2px solid #3ACFD5;
+    border-bottom: 2px solid #3a4ed5;
+   }
+   .label{
+    /* background-image: url("download.jpg"); */
+       font: outline;
+       font-variant-caps: all-petite-caps;
+       font-weight: 800;
+       font-size: large;
+   }
+   #email{
+       padding: 5px 5px 5px 5px;
+       border-width: 1px;
+       border: #6274ee groove ;
+       border-collapse: collapse;
+       border-radius: 10px;
+       transition: 0.25px;
+       width: 220px;
+       display: block;
+    }
+    #password{
+        padding: 5px 5px 5px 5px;
+       border-width: 1px;
+       border: #5c6ee7 groove ;
+       border-collapse: collapse;
+       border-radius: 10px;
+       /* transition: 0.25px; */
+       width: 220px;
+       display: block;
+    }
+    .button{
+        /* text-decoration: none; */
+        padding: 5px 10px 4px 10px;
+        font-weight: 300;
+        font-style: italic;
+         border-radius: 10px;
+         border-color: black;
+         box-shadow: 1px 2px 5px 3px rgb(240, 196, 138);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    .login input[type="text"]:focus,.login input[type="password"]:focus{
+        width: 270px;
+        border-color: #ffc400ec;
+        outline: none;
+    }
+    #email:hover ,#password:hover {
+        border-color:  #ffc400ec;
+        transform: scale(1.1);
+        border-width: 1px;
+        border-radius: 25px;
+        cursor: pointer;
+        font: "Sacramento";
+        font-weight: 500;
+    }
+    #email:focus{
+        outline: none;
+    }
+    #password:focus{
+        outline: none;
+    }
+    .button:hover{
+        /* display: block; */
+        /* margin: 20px auto; */
+        text-align: center;
+        border: 3px solid  #ffc400ec;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: 0.25px;
+        outline: none;
+        color: green;
+        background: -moz-repeating-linear-gradient(10deg,red, orange,yellow);
+    }
+    .button:active{
+        outline: none;
+        color: red;
+    }
+    .button::after{
+        color: red;
+    }
+    #link{
+        text-decoration: none;
+        cursor: pointer;
+    }
+    footer{
+        background: linear-gradient(35deg,rgba(102, 255, 0, 0.26),rgb(192, 190, 187),rgb(202, 202, 119));
+        border-width: 5mm;
+        width: 100%;
+        box-shadow: rgb(49, 49, 48);
+        padding: 8px 0px 8px 0px;
+        text-align: left;
+        position: fixed;
+        bottom: 0;
+    }
+    #gh-logo{
+        width:15px;
+        height: 15px;
+    }
+    #head{
+            font-family: cursive;
+            color:rgba(152, 37, 175, 0.459);
+            font-size: 35px;
+            text-decoration:none;
+}                
